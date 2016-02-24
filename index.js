@@ -10,5 +10,5 @@ app.set('env', process.env.NODE_ENV || 'production');
 app.use(express.static(__dirname + '/www'));
 
 app.listen(app.get('port'), function(){
-  console.log('Listening on port ' + app.get('port') + ' as ' + app.get('env'));
+  console.log('go to http://localhost:' + app.get('port'));
 });
