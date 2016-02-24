@@ -1,0 +1,9 @@
+<ion-view view-title="Characters">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="character in characterList" ui-sref="app.character-details({ id: character })">
+        {{ character }}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
